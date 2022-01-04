@@ -18,15 +18,13 @@ https://www.beecrowd.com.br/judge/pt
 print('Hello World!')
 ```
 
-### Leia e armazene 2 valores inteiros nas variaveis A e B, efetue a soma e armaze o resultado na variavel X. Imprima o valor de X. Conforme o exemplo:
+### Leia e armazene 2 valores inteiros nas variaveis A e B, efetue a soma e armaze o resultado na variavel X. Imprima o valor de X. Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. Conforme o exemplo:
 
-> Entrada
-2
-2
+10
 
-> Saída
-X = 4
+10
 
+X = 20
 
 
 ```python
