@@ -12,13 +12,19 @@ https://www.beecrowd.com.br/judge/pt
 ## DESAFIOS INICIANTE.
 
 
-### Imprima a mensagem "Hello World!"
+#### Imprima a mensagem "Hello World!"
 
 ```python
 print('Hello World!')
 ```
 
-### Leia e armazene 2 valores inteiros nas variaveis A e B, efetue a soma e armaze o resultado na variavel X. Imprima o valor de X. Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. Conforme o exemplo:
+#### Leia e armazene 2 valores inteiros nas variaveis A e B, efetue a soma e armaze o resultado na variavel X. Imprima o valor de X. 
+
+
+#### Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. 
+
+
+#### Conforme o exemplo:
 
 10
 
