@@ -88,14 +88,14 @@ print('PROD =',PROD)
  
  Utilizados para execução de contas, ou seja, operações matemáticas. Vejamos exemplos
  
- OPERADOR | CONCEITO 
- -------- | --------
- +        | Soma 
- -        | Subtração 
- *        | Multiplicação
- /        | Divisão 
- %        | Módulo (resto da divisão)
- **       | Exponenciação (multiplicação da quantidade do expoente)
+OPERADOR | CONCEITO 
+:--------: | :--------:
++| Soma 
+-| Subtração 
+*| Multiplicação
+/| Divisão 
+%| Módulo (resto da divisão)
+**| Exponenciação (multiplicação da quantidade do expoente)
  
 
 
