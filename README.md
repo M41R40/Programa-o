@@ -61,3 +61,15 @@ print ("A={:.4f} ".format(area))
 
 - **float** tambem é um tipo de dado, número mais especificamente e é do tipo decimal, que contem virgulas, para exibir a quantidade infinita de casas que existem depois da virgular podemos setar com o comando **{:.2f}** o dois vai mostrar a quantidade de casas que eu desejo ver depois da virgula, para especificar com qual variavel fazer isso, adicionamos o **.format(nomedavariavel)** para que ele compreenda e exiba. 
 
+
+#### 1003 - Leia dois valores inteiros, A e B, atribua o resultado da adição entre eles a variavel SOMA, exiba o valor da seguinte forma "SOMA =" seguido pela variavel.
+
+```python
+A = int(input( ))
+B = int(input( ))
+SOMA = A + B
+
+print('SOMA =',SOMA)
+```
+
+
