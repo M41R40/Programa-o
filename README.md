@@ -72,4 +72,30 @@ SOMA = A + B
 print('SOMA =',SOMA)
 ```
 
+#### 1004 - Leia dois valores inteiros, calcule o produto entre o dois e atribua a variavel PROD, exiba "PROD =" seguindo do valor da variavel em tela.
+
+- Produto conforme a matemática é o resultado da multiplicação entre numeros. 
+
+```python
+A = int(input( ))
+B = int(input( ))
+PROD = A * B
+
+print('PROD =',PROD)
+```
+
+### OPERADORES ARITMÉTICOS.
+ 
+ Utilizados para execução de contas, ou seja, operações matemáticas. Vejamos exemplos
+ 
+ OPERADOR | CONCEITO 
+ -------- | --------
+ +        | Soma 
+ -        | Subtração 
+ *        | Multiplicação
+ /        | Divisão 
+ %        | Módulo (resto da divisão)
+ **       | Exponenciação (multiplicação da quantidade do expoente)
+ 
+
 
