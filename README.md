@@ -41,7 +41,7 @@ b = int(input( ))
 x = a + b
 print("X =",x) 
 ```
-- **variavel** é um valor ou string qualquer que adicionado ao código poderá interagir e variar conforme as operações e ações que se deseja realizar como objetivo do programa, tendo um tipo que nesse caso é o **int** e uma ação que neste caso é armazenar uma entrada. 
+- **variavel** é um valor qualquer que adicionado ao código poderá interagir e variar conforme as operações e ações que se deseja realizar como objetivo do programa, tendo um tipo que nesse caso é o **int** e uma ação que neste caso é armazenar uma entrada. 
 - O comando **input** é para informar ao programa que ele deve receber e armazenar uma entrada, a qual o usuario vai fazer;
 
 - **int** é um tipo de dado ou melhor de número, inteiro no caso, que são números de 0 a 9;
@@ -97,5 +97,56 @@ OPERADOR | CONCEITO
 %| Módulo (resto da divisão)
 **| Exponenciação (multiplicação da quantidade do expoente)
  
+#### 1005 - Leia 2 valores flutuantes de dupla precisão A e B valendo de 0 a 10, que correspondem a 2 notas de um aluno, calcule a media do aluno sabendo que o peso da nota A é 3.5 e a nota B tem peso 7.5, com uma casa decimal. Imprima "MEDIA =" seguido do valor da média do aluno com 5 casas decimais
+
+
+```pyhton
+A = float(input( ))
+B = float(input( ))
+
+media = (((A * 3.5) + (B * 7.5)) / 11)
+print ("MEDIA = {:.5f}".format(media))
+```
+
+Esse código foi muito interessante, ele me despertou a curiosidade sobre variaveis. Vou introduzir um assunto legal, pelo menos que eu gosto ne!
+
+### Tipos de Variáveis. (DADOS)
+
+
+SIGLA | FUNÇÃO | CONCEITO | SINTAXE
+:--------: | :--------: | :---------------------------------------------------------------------------:
+Int| Inteiro | Composto por números inteiros (sem vírgula), negativos ou positivos.
+float| Ponto Flutuante ou decimal | Composto por números decimais (com vírgula), racionais (frações).
+Str| String | Conjunto de caracteres dispostos em uma ordem, utilizada para palavras, frases ou textos.
+bool| Boolean | É um dado lógico, podendo assumir apenas dois valores: falso ou verdadeiro.
+list| Listas | Tipo de dado que agrupa conjuntos de elementos variádos entre colchetes e delimitado por virgulas. 
+dic| Dictionary | É um tipo de dado utilizado para agrupar elementos por meio de chaves dois pontos e valor e delimitado por virgulas.  
+tuple | Tuplas | Tipo de dado que agrupa elementos utilizando parênteses e separados por vŕgula. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
