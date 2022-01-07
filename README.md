@@ -113,7 +113,7 @@ Esse código foi muito interessante, ele me despertou a curiosidade sobre variav
 ### Tipos de Variáveis. (DADOS)
 
 
-SIGLA | FUNÇÃO | CONCEITO | SINTAXE
+SIGLA | FUNÇÃO | CONCEITO 
 :--------: | :--------: | :---------------------------------------------------------------------------:
 Int| Inteiro | Composto por números inteiros (sem vírgula), negativos ou positivos.
 float| Ponto Flutuante ou decimal | Composto por números decimais (com vírgula), racionais (frações).
