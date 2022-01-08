@@ -126,20 +126,76 @@ tuple | Tuplas | Tipo de dado que agrupa elementos utilizando parênteses e sepa
 
 
 
+#### 1006 - Leia 3 valores com uma casa decimal, variaveis A, B e C, que serão 3 notas de um aluno, a seguir a média sabendo que a nota A tem peso 2, a nota B tem peso 3 e a nota C tem peso 5. A media e de 0 a 10. Imprima "MEDIA = " com um digito após a virgula. 
+
+```python
+A = float(input())
+B = float(input())
+C = float(input())
+
+media = ((A * 2) + (B * 3) + (C * 5)) / 10
+print("MEDIA = %0.1f"%media)
+```
+
+#### 1007 - Leia quatro valores inteiros, calcule e mostre a diferença do produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D). Imprima "DIFERENCA = " seguido do valor obtido da subtração dos produtos entre os valores. 
+
+```python
+A = int(input( ))
+B = int(input( ))
+C = int(input( ))
+D = int(input( ))
+produto = ((A * B) - (C * D))
+print ("DIFERENCA =",produto)
+```
 
 
+#### 1008 - Escreva um número de um funcionario, as horas trabalhadas, o valor da hora e calcule o salário do funcionário, depois, exiba o número e o salário do funcionário com duas duas casas decimais. 
 
 
+```python
+ID_FUNCIONARIO = int(input())
+QUANT_HORA = int(input())
+VALOR_HORA = float(input())
+TOTAL = ( QUANT_HORA * VALOR_HORA)
+print("NUMBER =",ID_FUNCIONARIO )
+print("SALARY = U$ %0.2f"%TOTAL)
+```
 
 
+#### 1009 - Escreva um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro), calcule a comissão que é correspondente a 15% sobre as vendas efetuadas no final do mês. Exiba o total da comissão que ele vai ganhar. 
+
+```python
+NOME = str(input())
+SALARIO = float(input())
+VALOR_VENDAS = float(input())
+MONTANTE = (VALOR_VENDAS * 0.15 + SALARIO) 
+print("TOTAL = R$ %0.2f"%MONTANTE)
+```
+
+#### 1010 - Neste problema você deve ler 3 entradas, a peça, o valor da peça e o código da peça. Receba 2 linhas de entrada. O valor deve ser lido com duas casas decimais, calcule e exiba o valor das peças. Exiba "VALOR A PAGAR: R$" seguido da variavel.
 
 
+```python
+linha1 = input().split(" ")
+linha2 = input().split(" ")
 
+cod1, qtde1, valor1 = linha1
+cod2, qtde2, valor2 = linha2
 
+total = (int(qtde1) * float(valor1)) + (int(qtde2) * float(valor2))
 
+print("VALOR A PAGAR: R$ %0.2f" %total)
+```
 
+- Nesse código há uma nova função o **split**, que nada mais é do que um delimitador, a sintaxe do slipt é:
 
+```python
+str.split (separador, maxsplit)
+```
 
+- separator (opcional) - Delimitador no qual ocorrem as divisões. Se não for fornecido, a string será dividida em espaços em branco.
+
+- maxsplit (opcional) - Número máximo de divisões. Se não for fornecido, não há limite para o número de divisões.
 
 
 
